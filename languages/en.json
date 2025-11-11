@@ -1,0 +1,52 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Full-Stack Developer",
+        "parrafo-info": "Mid Full Stack Developer specialized in production and development with experience working for national and international universities. Expert in production databases, web development, ERP systems and AI-powered solutions focused on optimization and technological efficiency.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact",
+        "recommendation_button": "Recommendation Letters"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "I am a Mid Full Stack Developer with extensive experience in the Production and Development area, collaborating with both national and international universities. I specialize in creating and implementing technological solutions that optimize processes, improve data management and strengthen operational efficiency.<br><br>I have experience in production databases, web development, ERP software and ticket management. My most recent project is an AI-powered chatbot, designed to improve response times and support request handling.<br><br>I am a proactive, results-oriented person with a strong commitment to innovation and continuous improvement. My goal is to help organizations transform their processes through the development of intelligent and scalable tools."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Bachelor's in Computer Systems Engineering",
+        "tiempo-formacion1": "2021 - In progress",
+        "formacion2": "Mid-Level Technician in Software Development - High School Diploma",
+        "tiempo-formacion2": "2018 - 2020",
+        "formacion3": "High School - Secondary Education"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "ATOM - AI Chatbot",
+        "info-proyecto1": "A robot that uses AI for task automation and reduction in response time for tickets related to common errors that usually occur in systems. - Python / Docker / SQL Server",
+        "title-proyecto2": "Portfolio",
+        "info-proyecto2": "My personal web portfolio, where you can find some of my projects, my skills, knowledge and a bit about my background. - HTML5 / CSS / JS",
+        "title-proyecto3": "QA - Migration Appointment Portal Costa Rica",
+        "info-proyecto3": "Collaborated in finding errors and bugs in the appointment management system for the DGME appointment process in Costa Rica, which allows users to schedule, modify and cancel appointments efficiently."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}

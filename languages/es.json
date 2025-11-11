@@ -1,0 +1,52 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrollador Full-Stack",
+        "parrafo-info": "Mid Full Stack Developer especializado en producción y desarrollo con experiencia trabajando para universidades nacionales e internacionales. Experto en bases de datos de producción, desarrollo web, sistemas ERP y soluciones con inteligencia artificial orientadas a la optimización y eficiencia tecnológica.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto",
+        "recommendation_button": "Cartas Recomendación"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy Mid Full Stack Developer con amplia experiencia en el área de Producción y Desarrollo, colaborando con universidades tanto nacionales como internacionales. Me especializo en la creación e implementación de soluciones tecnológicas que optimizan procesos, mejoran la gestión de datos y fortalecen la eficiencia operativa.<br><br>Cuento con experiencia en bases de datos de producción, desarrollo web, software ERP y gestión de tickets. Mi proyecto más reciente es un chatbot potenciado con inteligencia artificial, diseñado para mejorar los tiempos de respuesta y la atención a solicitudes de soporte.<br><br>Soy una persona proactiva, orientada a resultados y con un fuerte compromiso hacia la innovación y la mejora continua. Mi objetivo es ayudar a las organizaciones a transformar sus procesos a través del desarrollo de herramientas inteligentes y escalables."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Bachillerato Ingeniería en Sistemas Computacionales",
+        "tiempo-formacion1": "2021 - En curso",
+        "formacion2": "Técnico Medio En Desarrollo de Software - Bachillerato Educación Media",
+        "tiempo-formacion2": "2018 - 2020",
+        "formacion3": "Secundaria - Educación Media"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "ATOM - Chatbot IA",
+        "info-proyecto1": "Un robot que utiliza IA para la automatización de tareas y reducción en el tiempo de respuesta en los tickets a errores comunes que se suelen presentar en los sistemas. - Python / Docker / SQL Server",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos, mis habilidades, conocimientos y un poco sobre mi formación. - HTML5 / CSS / JS",
+        "title-proyecto3": "QA - Portal Citas Migración Costa Rica",
+        "info-proyecto3": "Se colabora buscando errores, bugs en el sistema de gestión de citas para el proceso de citas de la DGME en Costa Rica, que permite a los usuarios agendar, modificar y cancelar citas de manera eficiente."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}
