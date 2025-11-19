@@ -34,21 +34,44 @@ btn.addEventListener('click', function() {
     }
 });
 
+/*===== Cambiar enlace del CV según idioma =====*/
+const updateCVLink = (language) => {
+    const cvLink = document.getElementById('cv-link');
+    if (cvLink) {
+        if (language === 'en') {
+            cvLink.href = './assets/docu/CV_en.pdf';
+        } else {
+            cvLink.href = './assets/docu/CV_es.pdf';
+        }
+    }
+}
+
 /*===== Cambio de idioma =====*/
 const changeLanguage = async language => {
-    const requestJson = await fetch(`./languages/${language}.json`);
-    const texts = await requestJson.json();
+    try {
+        const requestJson = await fetch(`./languages/${language}.json`);
+        const texts = await requestJson.json();
 
-    for(const textToChange of textsToChange) {
-        const section = textToChange.dataset.section;
-        const value = textToChange.dataset.value;
+        for(const textToChange of textsToChange) {
+            const section = textToChange.dataset.section;
+            const value = textToChange.dataset.value;
 
-        textToChange.innerHTML = texts[section][value];
+            if (texts[section] && texts[section][value]) {
+                textToChange.innerHTML = texts[section][value];
+            }
+        }
+        
+        // Actualizar el enlace del CV
+        updateCVLink(language);
+    } catch (error) {
+        console.error('Error changing language:', error);
     }
 }
 
 flagsElement.addEventListener('click', (e) => {
-    changeLanguage(e.target.parentElement.dataset.language);
+    if (e.target.parentElement.dataset.language) {
+        changeLanguage(e.target.parentElement.dataset.language);
+    }
 })
 
 /*===== class active por secciones =====*/
@@ -83,4 +106,9 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
         top: 0,
         behavior: 'smooth'
     });
+});
+
+// Inicializar con español por defecto al cargar la página
+document.addEventListener('DOMContentLoaded', () => {
+    updateCVLink('es');
 });
