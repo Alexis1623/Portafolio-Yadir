@@ -112,7 +112,7 @@ Mid Full Stack Developer especializado en producción y desarrollo con experienc
 Cuento con experiencia en bases de datos de producción, desarrollo web, software ERP y gestión de tickets. Mi proyecto más reciente es un chatbot potenciado con inteligencia artificial, diseñado para mejorar los tiempos de respuesta y la atención a solicitudes de soporte.<br><br>
 Soy una persona proactiva, orientada a resultados y con un fuerte compromiso hacia la innovación y la mejora continua. Mi objetivo es ayudar a las organizaciones a transformar sus procesos a través del desarrollo de herramientas inteligentes y escalables.
 </span>
-                </div>
+                </div> 
     
         <picture class="container_image-sobreMi">
         <div class="links">
@@ -280,11 +280,15 @@ Soy una persona proactiva, orientada a resultados y con un fuerte compromiso hac
                         <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
                     </div>
     
-                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
-                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
-                        <input id="email" type="email" name="email" placeholder="E-mail" required>
-                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
-                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+                    <form id="form" class="form-contact" action="https://formsubmit.co/yadirzm1623@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Nombre | Name" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="text" name="subject" placeholder="Asunto | Subject" required>
+                        <textarea cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+                        
+                        <!-- Campos ocultos para configuración -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://alexis1623.github.io/Portafolio-Yadir/success.html">
     
                         <div class="btn_form--contacto">
                             <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
